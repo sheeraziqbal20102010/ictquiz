@@ -1,0 +1,6 @@
+{
+  "name": "ICT Questionier",
+  "description": "Strictly proctored black and blue dark theme 100-question ICT exam with 3-strike anti-cheating, 75-minute timer, Google Sheets sync, and instant score summary.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

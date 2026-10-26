@@ -1,0 +1,432 @@
+=====================================================================
+        OBJECTIVE QUESTION BANK - LAB 1 TO LAB 5
+        Topics: Introduction to Computer, Hardware, Software,
+        Databases, Keys, SQL Data Types, SQL Dialects, SQL Statements
+=====================================================================
+
+SECTION A: MULTIPLE CHOICE QUESTIONS (50)
+Q1-Q40  : Difficult
+Q41-Q50 : Very Difficult
+Instruction: Choose the single best answer.
+
+---------------------------------------------------------------------
+
+1. Why is RAM described as "random access" memory?
+   A. Data is written in an unpredictable order and cannot be retrieved reliably
+   B. Cells must be read sequentially starting from the first cell
+   C. Any memory cell can be accessed directly if its row and column are known
+   D. Only cells chosen by the operating system's scheduler can be accessed
+
+2. Which CPU component reads the code for the next instruction, increments the program counter, and instructs the ALU or specialized hardware to perform the requested operation?
+   A. Control Unit
+   B. Arithmetic Logic Unit
+   C. Registers
+   D. Primary memory
+
+3. Which of the following is NOT one of the three main parts of the CPU?
+   A. Arithmetic Logic Unit
+   B. Control Unit
+   C. Registers
+   D. Random Access Memory
+
+4. Comparing two numbers, letters, or special characters is a task assigned to which unit, and of what type?
+   A. Control Unit - control operation
+   B. ALU - logical operation
+   C. ALU - arithmetic operation
+   D. Registers - storage operation
+
+5. Which of the following is NOT listed among the five gross functions of a digital computer?
+   A. Takes data as input
+   B. Compiles source code into machine language
+   C. Stores data and instructions in memory for later use
+   D. Controls all the other steps
+
+6. Which pair of characteristics correctly describes ROM?
+   A. Volatile and modifiable
+   B. Volatile and read-only
+   C. Permanent and freely modifiable
+   D. Permanent and not modifiable
+
+7. Which category of memory retains stored data and programs after the power is turned off?
+   A. Secondary memory
+   B. RAM
+   C. Registers
+   D. The program counter
+
+8. Which ordering of optical media by maximum storage capacity (smallest to largest) is correct?
+   A. Blu-ray, DVD, CD
+   B. DVD, CD, Blu-ray
+   C. CD, DVD, Blu-ray
+   D. CD, Blu-ray, DVD
+
+9. The floppy disk, with a capacity of only 1.44 MB, is categorized as which type of storage media?
+   A. Optical media
+   B. Solid-state media
+   C. Magnetic media
+   D. Volatile media
+
+10. Why is the term "disk" still used for a flash disk even though it has no mechanical platters or access arms?
+    A. Because flash chips are physically shaped like circular platters
+    B. Because data is accessed as if it were on a hard drive, with the disk storage structure emulated
+    C. Because flash disks use laser light to read data
+    D. Because flash disks are always connected through a disk drive controller
+
+11. According to the lab, a hard disk drive provides relatively quick access to large amounts of data stored on what?
+    A. An electromagnetically charged surface or set of surfaces
+    B. A laser-etched polycarbonate layer
+    C. A set of non-volatile flash chips
+    D. A refreshed capacitor array
+
+12. Which statement about dependency between system software and application software is correct?
+    A. System software cannot run without application software
+    B. Both types depend on each other equally
+    C. Application software can run independently, while system software depends on it
+    D. Application software cannot run without system software, whereas system software can run independently
+
+13. Which of the following is an example of a software suite rather than a single program?
+    A. An image viewer
+    B. Microsoft Office
+    C. Opera web browser
+    D. Linux
+
+14. A database management system, being a collection of fundamental programs that provide service to a variety of other independent applications, is an example of which form of application software?
+    A. A single program
+    B. A software package
+    C. A software system
+    D. A software suite
+
+15. Which of the following would be classified as a fundamental system software utility?
+    A. A disk formatter
+    B. A spreadsheet
+    C. An image viewer
+    D. Presentation software
+
+16. What is the primary role of an input device according to the lab?
+    A. To store data permanently for later retrieval
+    B. To convert electronic results into printed form
+    C. To control and coordinate all other components
+    D. To translate data from a form humans understand into one the computer can work with
+
+17. How many keys does a standard (QWERTY) keyboard generally have?
+    A. 84
+    B. 101
+    C. 108
+    D. 104
+
+18. Which statement correctly contrasts the binary and decimal number systems?
+    A. Binary has ten digits and decimal has two
+    B. Binary has only two digits, while decimal has ten unique digits from zero through nine
+    C. Both have ten digits but use different symbols
+    D. Binary uses digits zero through seven, decimal uses zero through nine
+
+19. Dr. E. F. Codd's 1970 paper on the relational concept was intended to overcome which limitation of earlier database systems?
+    A. Lack of graphical user interfaces
+    B. High cost of storage devices
+    C. Physical dependencies in the then-available database systems
+    D. Inability to store numeric data
+
+20. What was the original name of the prototype that later became the SQL (SEQUEL) language?
+    A. System R
+    B. Relational Software
+    C. T-SQL
+    D. PL/SQL
+
+21. Which company, then called Relational Software, Inc., introduced the first commercially available relational database implementation incorporating SQL in 1979?
+    A. IBM
+    B. Oracle
+    C. MySQL AB
+    D. Microsoft
+
+22. Which reason does the lab give for SQL remaining a fundamental skill?
+    A. There is currently no mature and viable alternative language that accomplishes the same functionality
+    B. SQL changes so drastically every decade that older knowledge becomes obsolete
+    C. Only Oracle databases are capable of using SQL
+    D. SQL has replaced relational databases entirely
+
+23. "Data independence" in a relational database means that:
+    A. Each table must be stored on a separate hard drive
+    B. Data cannot be shared between users
+    C. Users must specify the file name of every record they need
+    D. A user does not need to know on which hard drive and file a piece of information is stored
+
+24. Which statement about NULL is correct?
+    A. Null is equal to zero
+    B. Null is a string of blank spaces
+    C. Null is an unknown value, not even blank spaces
+    D. Null can be compared with other values using the equals sign
+
+25. Which statement about the order of columns in a table is correct?
+    A. Column order is fixed permanently once the table is created
+    B. Column order determines which column becomes the primary key
+    C. Column order is unimportant because SQL can display data in any order you choose
+    D. Column order must always be alphabetical
+
+26. Why is a customer's phone number a poor choice for a primary key?
+    A. Phone numbers can never be unique
+    B. Phone numbers cannot be stored in a NUMBER column
+    C. Primary keys must always be text
+    D. Phone numbers can change, causing problems with updates of other columns that reference it
+
+27. What is the main advantage of a surrogate (synthetic) key?
+    A. It is derived from the customer's name
+    B. It is unique and has no inherent meaning, so it is not subject to changes
+    C. It can contain null values
+    D. It can be reused after the row is deleted
+
+28. Which statement about primary keys in a table is correct?
+    A. A table may have only one primary key, which may consist of one or more columns
+    B. A table must have one primary key for every column
+    C. A table may have several primary keys as long as each is a single column
+    D. A primary key must always consist of exactly one column
+
+29. Which statement about Oracle and primary keys is correct?
+    A. Oracle does not require every table to have a primary key, though most tables should have one
+    B. Oracle refuses to create a table without a primary key
+    C. Oracle automatically creates a primary key on the first column
+    D. Oracle allows primary keys only on NUMBER columns
+
+30. Splitting customer and order information into two tables chiefly helps to:
+    A. Increase the number of columns in each table
+    B. Remove the need for any key
+    C. Avoid data inconsistency, since an address change requires updating only one row
+    D. Make NULL values impossible
+
+31. Which statement about a foreign key column and the primary key column it references is correct?
+    A. They must always have identical names
+    B. They must never have identical names
+    C. The foreign key column must be unique within its table
+    D. They often share the same name, but this is not required
+
+32. Which pairing of an SQL command and its sublanguage is correct?
+    A. TRUNCATE - Data Manipulation Language
+    B. GRANT - Data Control Language
+    C. COMMIT - Data Definition Language
+    D. SELECT - Data Definition Language
+
+33. Which group of commands belongs to Transaction Control?
+    A. CREATE, ALTER, DROP
+    B. GRANT, REVOKE
+    C. COMMIT, ROLLBACK, SAVEPOINT
+    D. SELECT, MERGE, DELETE
+
+34. Depending on setup, how does the default display format show the date July 4, 2009?
+    A. 04-JUL-09
+    B. 07-04-2009
+    C. JUL-04-09
+    D. 2009-JUL-04
+
+35. In the definition NUMBER(5,2), the values 5 and 2 are respectively called:
+    A. Scale and precision
+    B. Length and width
+    C. Digits and decimals
+    D. Precision and scale
+
+36. A column defined as NUMBER(5) or NUMBER(5,0) allows integers in which range?
+    A. -999.99 to 999.99
+    B. -99,999 to 99,999
+    C. 0 to 99,999 only
+    D. -9,999 to 9,999
+
+37. A column defined as CHAR(10) stores the four-character value JOHN. How many blank characters are padded at the end?
+    A. 4
+    B. 6
+    C. 10
+    D. 0
+
+38. Which pair correctly states the maximum sizes of VARCHAR2 and CHAR columns?
+    A. VARCHAR2: 2,000 characters; CHAR: 4,000 characters
+    B. VARCHAR2: 4,000 characters; CHAR: 4,000 characters
+    C. VARCHAR2: 4,000 characters; CHAR: 2,000 characters
+    D. VARCHAR2: 2,000 characters; CHAR: 2,000 characters
+
+39. Which data type replaced the formerly used LONG data type, which is retained only for backward compatibility?
+    A. CLOB
+    B. VARCHAR2
+    C. CHAR
+    D. NUMBER
+
+40. Which pairing of an RDBMS and its row-limiting construct is correct according to the lab?
+    A. MySQL - ROWNUM
+    B. Oracle 11g - LIMIT
+    C. SQL Server - SYSDATE
+    D. SQL Server (T-SQL) - TOP
+
+---------------------- VERY DIFFICULT (Q41 - Q50) -------------------
+
+41. You must list only the departments that have more than 5 employees by filtering on COUNT(employee_id). Which clause is appropriate and why?
+    A. WHERE, because it filters groups after aggregation
+    B. ORDER BY, because it removes groups that fail the condition
+    C. HAVING, because it filters the groups formed by GROUP BY, while WHERE filters individual rows
+    D. DISTINCT, because it removes departments with duplicate counts
+
+42. An employee row has a department_id value that has no matching row in the departments table. What happens to that employee when the two tables are combined with INNER JOIN ... ON e.department_id = d.department_id?
+    A. The row appears with a NULL department name
+    B. The row is omitted from the result
+    C. The query returns an error
+    D. The row appears with blank spaces as the department name
+
+43. Which query correctly returns only the first 10 rows of the employees table in Oracle 11g?
+    A. SELECT first_name FROM employees LIMIT 10;
+    B. SELECT TOP 10 first_name FROM employees;
+    C. SELECT first_name FROM employees WHERE ROWNUM = 10;
+    D. SELECT first_name FROM employees WHERE ROWNUM <= 10;
+
+44. The employees table has 20 rows with no NULLs in department_id: the value 90 appears 3 times, 60 appears 5 times, and 50 appears 12 times. How many rows does SELECT DISTINCT department_id FROM employees return?
+    A. 3
+    B. 12
+    C. 20
+    D. 5
+
+45. What is the effect of executing UPDATE employees SET salary = 6000; with no WHERE clause?
+    A. Only the first row is updated
+    B. A syntax error occurs
+    C. The salary of every row in the table is set to 6000
+    D. No rows are updated
+
+46. Why does a query written as WHERE publish_date = NULL fail to find rows whose PUBLISH_DATE is null?
+    A. Nulls are unknown values and cannot be evaluated or compared
+    B. NULL is stored as zero, so the comparison is always false
+    C. The DATE data type does not allow comparison operators
+    D. NULL is stored as blank spaces, so only LIKE can match it
+
+47. Which value would be rejected by a column defined as NUMBER(5,2)?
+    A. -999.99
+    B. 0.07
+    C. 123.4
+    D. 1000.5
+
+48. Given: SELECT d.department_name, e.first_name FROM employees e RIGHT JOIN departments d ON e.department_id = d.department_id; what happens to a department that currently has no employees?
+    A. It is omitted from the result
+    B. It appears in the result with NULL in the employee columns
+    C. The query returns an error
+    D. It appears once for every employee in the table
+
+49. Which statement about how computers store files and software is correct?
+    A. Software is stored in decimal, while data files are stored in binary
+    B. Only data files are stored as ones and zeros; programs are not
+    C. Even the software that translates binary files into words and pictures is itself composed of ones and zeros
+    D. Files are stored as words and pictures natively, and binary is used only during transmission
+
+50. Which pair names the function used for the current date/time in the MySQL and Oracle dialects respectively?
+    A. SYSDATE / NOW()
+    B. DATETIME / SYSDATE
+    C. NOW() / DATE
+    D. NOW() / SYSDATE
+
+
+=====================================================================
+SECTION B: TRUE / FALSE (30) - All Very Difficult and Conceptual
+Instruction: Write T for True and F for False.
+=====================================================================
+
+1.  A touch screen is exclusively an output device.
+2.  Regarding computing power, the CPU is the most important element of a computer system.
+3.  A hard disk drive is classified as software because it stores programs.
+4.  Registers provide a very fast storage area for the data that is to be executed next.
+5.  An output device converts electronically generated information into human-readable form.
+6.  MySQL is classified as system software.
+7.  A bit is composed of the digits zero through nine.
+8.  Optical disc drives use laser light to read or write data.
+9.  Users generally interact directly with system software because it runs in the foreground.
+10. Blu-ray is described as the newest type of optical media.
+11. The programs in a software suite share a common user interface or data format.
+12. A DBMS is itself the organized collection of data.
+13. The name of a column must be unique within a table.
+14. In the five computer functions, processing converts information back into raw data.
+15. Every intersection of a row and a column in a table must hold a non-null value.
+16. Each table has a unique name that signifies the contents of its data.
+17. MERGE is listed as a Data Manipulation Language command.
+18. A table typically holds data about several unrelated subjects.
+19. RENAME is classified as a Data Control Language command.
+20. A barcode reader and a joystick are both input devices.
+21. The DATE data type stores only the calendar date and no time information.
+22. Oracle uses PL/SQL for procedural tasks.
+23. InnoDB is an ENGINE option associated with the MySQL dialect.
+24. NUMBER columns may include hyphens or dashes as part of the numeric data.
+25. GROUP BY is used together with aggregate functions such as COUNT, SUM, and AVG.
+26. T-SQL is the dialect used by Oracle.
+27. ORDER BY can sort the result set by one or more columns in ascending or descending order.
+28. A LEFT JOIN returns all rows from the right table and only matching rows from the left.
+29. A relational database management system provides users with data consistency and data integrity.
+30. User authentication (login) tools are classified as application software rather than system software.
+
+
+=====================================================================
+SECTION C: FILL IN THE BLANKS (10) - All Very, Very Difficult
+Instruction: Choose the correct word for each blank from the word pool
+below. Each word is used at most once. Some words are distractors.
+=====================================================================
+
+WORD POOL (25 words):
+
+   sequence      matrix       TOP         memory       integrity
+   FETCH         schema       ranks       package      binary
+   DISTINCT      VALUES       volatile    links        column
+   CLOB          touched      row         TINYINT      suite
+   SYSDATE       register     functional  LIMIT        table
+
+---------------------------------------------------------------------
+
+1.  A computer operates under the control of instructions stored in its own ____________, accepts data, processes it, and stores information for future use.
+
+2.  System software controls, integrates, and manages the individual hardware components so that other software and users see the system as a single ____________ unit.
+
+3.  A relational database stores data in tables, which are essentially a two-dimensional ____________ consisting of columns and rows.
+
+4.  In the CUSTOMER and ORDER example, CUSTOMER_ID is the foreign key that ____________ the two tables together.
+
+5.  Because Oracle 11g does not support the LIMIT clause, it uses ROWNUM or ____________ FIRST to restrict the number of rows.
+
+6.  In an INSERT INTO statement, the data to be added to the new row is supplied through the ____________ keyword.
+
+7.  A small collection of programs that work closely together to accomplish a task, such as a spreadsheet, is called a software ____________.
+
+8.  Joins combine rows from two or more tables based on a related ____________ between them.
+
+9.  MySQL has data types like ____________ and DATETIME, whereas Oracle uses NUMBER and DATE.
+
+10. Computer hardware consists of physical objects, such as the monitor and the motherboard, that can be ____________.
+
+
+=====================================================================
+ANSWER KEY
+=====================================================================
+
+SECTION A - MCQs
+ 1. C     11. A     21. B     31. D     41. C
+ 2. A     12. D     22. A     32. B     42. B
+ 3. D     13. B     23. D     33. C     43. D
+ 4. B     14. C     24. C     34. A     44. A
+ 5. B     15. A     25. C     35. D     45. C
+ 6. D     16. D     26. D     36. B     46. A
+ 7. A     17. D     27. B     37. B     47. D
+ 8. C     18. B     28. A     38. C     48. B
+ 9. C     19. C     29. A     39. A     49. C
+10. B     20. A     30. C     40. D     50. D
+
+(Answer count: A = 12, B = 12, C = 13, D = 13)
+
+SECTION B - True / False
+ 1. F     6. F     11. T     16. T     21. F     26. F
+ 2. T     7. F     12. F     17. T     22. T     27. T
+ 3. F     8. T     13. T     18. F     23. T     28. F
+ 4. T     9. F     14. F     19. F     24. F     29. T
+ 5. T    10. T     15. F     20. T     25. T     30. F
+
+(15 True, 15 False)
+
+SECTION C - Fill in the Blanks
+ 1. memory
+ 2. functional
+ 3. matrix
+ 4. links
+ 5. FETCH
+ 6. VALUES
+ 7. package
+ 8. column
+ 9. TINYINT
+10. touched
+
+=====================================================================
+                          END OF QUESTION BANK
+=====================================================================
